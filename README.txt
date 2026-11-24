@@ -1,2 +1,5 @@
-CAMPUS LEGENDS v0.49.0 / Cinematic Impact
-ZIPの中身を同じGitHub Pagesリポジトリのルートに上書きしてください。bgm フォルダも維持。既存セーブキー・manifest ID・start_url・scopeは変更していません。
+CAMPUS LEGENDS v0.53 — オフライン標準版
+v0.52の素材が正しく公開済みなら差分3ファイルをルートに上書き。
+初回/更新時に全素材を自動取得し、完了後はオフライン対応。
+全素材が未公開の場合は完全版のart-01/02/03、bgm、sfxをフォルダごと先に公開。
+セーブデータ保存キーは変更なし。
