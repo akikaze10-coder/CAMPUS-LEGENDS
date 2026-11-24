@@ -1,3 +1,4 @@
-CAMPUS LEGENDS v0.61.0 — BGM & notification update
+CAMPUS LEGENDS v0.62.0 — 東京一科・旧七帝大専用コンボボイス
 GitHub Desktopで既存フォルダへ上書き → Commit → Push。
-差分版はv0.60の全素材が公開済みの場合のみ。全素材は自動保存されます。
+差分版はv0.61の全素材が公開済みの場合のみ。全素材は自動保存されます。
+標準演出のみ専用ボイスに合わせて時間を調整。高速・最小演出は従来どおり。
