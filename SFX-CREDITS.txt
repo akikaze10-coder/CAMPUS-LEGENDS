@@ -512,3 +512,6 @@ Additional premium scout sounds in v0.77 were edited from these sources:
 - DAEDAL UI Sounds: DAEDAL_UI_028_029_030_031_033
 - DAEDAL Trailer Design: DAEDAL_Swell_17_19_23_Major, DAEDAL_Stinger_24_28_29_30
 All provided under the same packs already credited above.
+
+
+v0.84 placement: short dry paper / wooden contact samples from rubberduck, 100 CC0 SFX (https://opengameart.org/content/100-cc0-sfx), paper-01..04 and wooden-01..03; alfred.makes Starter Sound Kit: paper-flip-1, click-ui-1, whoosh-fast-1. CC0 1.0; trimmed, filtered, layered, stereo 32kHz PCM.
