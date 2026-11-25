@@ -1,4 +1,3 @@
-CAMPUS LEGENDS v0.69.0 — Android icon refresh
-GitHub Desktopで上書き → Commit → Push。差分版はv0.68公開済みの場合のみ。
-アプリID、start_url、scope、セーブキーは維持。新アイコンURLと旧アイコンの互換ファイルを更新。
-AndroidのChromeがアイコン更新を確認する必要があります。サイトデータを消去しないでください。
+CAMPUS LEGENDS v0.70.0 — 30大学群・学部別ガチャ
+GitHub Desktopで上書き → Commit → Push。差分版はv0.69公開済みの場合のみ。
+大学群ガチャ廃止。地方別維持、学部別18種類追加。同レア内対象重みは学部別2倍、地方別4倍。レア別排出率・天井・既存セーブキーは変更なし。
