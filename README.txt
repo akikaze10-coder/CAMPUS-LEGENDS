@@ -1,4 +1,3 @@
-CAMPUS LEGENDS v0.65.0 — 750種類拡張
-GitHub Desktopで既存フォルダへ上書き → Commit → Push。
-差分版はv0.64の全素材が公開済みの場合のみ。既存カードID・セーブ・入手枚数・覚醒・絆を維持します。
-追加カードは既存の学問系統別イラストを使用。
+CAMPUS LEGENDS v0.66.0 — DISCOVERY / ガチャ演出強化
+GitHub Desktopで上書き → Commit → Push。差分版はv0.65公開済みの場合のみ。
+750カード・排出率・価格・セーブデータ・覚醒は維持。
