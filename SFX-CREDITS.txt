@@ -45,3 +45,465 @@ permission and without attribution. Credit is appreciated but never required.
 
 Full legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
 All files were generated procedurally by DAEDAL; no third-party footage or presets were used.
+
+
+CAMPUS LEGENDS v0.68: additional CC0 1.0 sources
+
+DAEDAL_Risers_and_Tension
+LICENSE.txt
+DAEDAL free packs — License: CC0 1.0 Universal (Public Domain Dedication)
+
+To the extent possible under law, the authors have waived all copyright and related
+rights to the files in this pack. You can use them in personal and commercial projects
+(client work, YouTube, ads, films), modify them, and redistribute them, without asking
+permission and without attribution. Credit is appreciated but never required.
+
+Full legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+All files were generated procedurally by DAEDAL; no third-party footage or presets were used.
+
+README.txt
+DAEDAL Risers and Tension — free sound effects library by DAEDAL
+
+WHAT'S INSIDE
+  WAV, 48 kHz / 24-bit, stereo, peak -1 dBFS. File names describe the sound (character, length, direction:
+  LR = left to right, RL = right to left). Every sound was synthesized from scratch — no samples, no AI.
+  License: CC0 — free for any use, including client work. Credit appreciated, never required.
+
+TIPS
+  Whooshes: put the loudest point on the cut; layer with an impact for punch.
+  Risers: end exactly on the cut or the beat drop; tension drones sit under suspense scenes at a low level.
+  Impacts: "Boom" for titles and drops, "Punch" for fast cuts, "SubDrop" for reveals (needs headphones/subwoofer).
+  UI sounds: keep them low (-18 to -12 dB) under music — they should be felt more than heard.
+
+
+DAEDAL_Transition_SFX_Pack
+LICENSE.txt
+DAEDAL free packs — License: CC0 1.0 Universal (Public Domain Dedication)
+
+To the extent possible under law, the authors have waived all copyright and related
+rights to the files in this pack. You can use them in personal and commercial projects
+(client work, YouTube, ads, films), modify them, and redistribute them, without asking
+permission and without attribution. Credit is appreciated but never required.
+
+Full legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+All files were generated procedurally by DAEDAL; no third-party footage or presets were used.
+
+README.txt
+DAEDAL Transition SFX Pack — free transition sound effects by DAEDAL
+
+WHAT'S INSIDE
+  Whooshes (8), Risers (6, incl. reverse cymbals), Impacts (5), UI clicks/pops/swipes (8),
+  Glitches (6) and a seamless 16mm projector loop. WAV, 48 kHz / 24-bit, stereo, peak -1 dBFS.
+  Every sound was synthesized from scratch (no samples, no AI). License: CC0 — free for any use.
+
+TIPS
+  - Whoosh: put its loudest point on the cut. Layer a whoosh + impact for punchy transitions.
+  - Riser: end it exactly on the cut / beat drop, then hit an impact right after.
+  - Reverse cymbals swell into the cut — great into a title or a music drop.
+  - Projector loop: lay it under film-look sequences at a low level (-20 to -25 dB).
+
+
+spritepilot-sound-effects
+LICENSE.txt
+SpritePilot Sound Effects Pack, license
+
+CC0 1.0 Universal (public domain dedication)
+https://creativecommons.org/publicdomain/zero/1.0/
+
+To the extent possible under law, SpritePilot has waived all copyright and
+related or neighboring rights to the sound files in this pack. You can copy,
+modify, distribute and use them, even for commercial purposes, all without
+asking permission. Credit is not required.
+
+The full legal code is at:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+README.txt
+SpritePilot Sound Effects Pack
+https://spritepilot.com/free-game-assets/sound-effects
+
+LICENSE
+CC0 1.0 (public domain): use these in any project, commercial or not, no
+credit needed (a link to spritepilot.com is always appreciated). See
+LICENSE.txt.
+
+WHAT'S INSIDE
+  wav/          48 kHz, 16-bit mono WAV, one folder per group
+  ogg/          Ogg Vorbis, one folder per group
+  mp3/          MP3, one folder per group
+  sounds.json   every sound with its group, length and whether it loops
+
+Every sound is levelled to sit well with the others, with headroom so
+nothing clips. Loops (the ambient group, Force field and Portal) repeat
+without a gap: set them to loop in your engine.
+
+EXPLOSIONS AND IMPACTS
+  explosion-big       Big explosion: A deep boom with a rumbling tail and falling debris. (2.98 s)
+  explosion-distant   Distant explosion: A heavy thud far away and a long low rumble. (2.75 s)
+  explosion-small     Small explosion: A short sharp pop with a few crackles. (0.8 s)
+  debris-crash        Debris crash: Rocks and rubble crashing down and settling. (1.99 s)
+  heavy-thud          Heavy thud: Something heavy hitting a wooden floor. (0.6 s)
+  metal-impact        Metal clang: A heavy pipe striking a steel plate, ringing out. (0.47 s)
+  crate-break         Crate break: A wooden crate smashing into splinters. (1.5 s)
+  glass-shatter       Glass shatter: A window breaking, shards falling. (1.24 s)
+  grenade             Grenade blast: A sharp blast with a hard crack and scattered debris. (2.5 s)
+  cannon              Cannon shot: An old cannon firing with a deep boom. (1.79 s)
+  firework            Firework: A rocket whistling up and bursting with crackles. (3.47 s)
+  bomb-drop           Bomb drop: A falling whistle that ends in a heavy explosion. (3.5 s)
+  explosion-underwaterUnderwater blast: A muffled boom deep under water with bubbles. (2.23 s)
+  barrel-explode      Barrel explosion: A metal barrel bursting into flames. (2.5 s)
+  rock-smash          Rock smash: A boulder cracking and breaking apart. (1.97 s)
+  wall-collapse       Wall collapse: A brick wall crumbling down. (2.77 s)
+
+COMBAT
+  punch               Punch: A solid fist hit. (0.24 s)
+  kick                Kick: A hard, dull body thump. (0.24 s)
+  sword-swing         Sword swing: A fast whoosh through the air. (0.43 s)
+  sword-clash         Sword clash: Two steel blades meeting with a bright ring. (1.5 s)
+  bow-shot            Bow shot: A string twang and the arrow flying off. (0.45 s)
+  arrow-hit           Arrow hit: An arrow thunking into a wooden target. (0.15 s)
+  shield-block        Shield block: A blade knocking against a wooden shield. (0.2 s)
+  body-fall           Body fall: A body dropping onto dirt. (0.79 s)
+  axe-hit             Axe hit: A heavy axe chopping into wood. (0.31 s)
+  dagger-stab         Dagger stab: A quick blade thrust with a sharp swish. (0.15 s)
+  punch-combo         Punch combo: Three fast punches in a row. (1.36 s)
+  armor-hit           Armor hit: A blade striking a metal breastplate. (0.54 s)
+  parry               Parry: A quick blade deflection with a bright scrape. (0.84 s)
+  sword-draw          Sword draw: A blade sliding out of its sheath. (0.57 s)
+  hammer-smash        Hammer smash: A big war hammer hitting the ground. (1.45 s)
+  whip-crack          Whip crack: A sharp leather whip crack. (0.04 s)
+
+SCI-FI
+  laser-shot          Laser shot: One short electronic zap. (0.69 s)
+  laser-heavy         Heavy laser: A deep, powerful energy cannon blast. (1.5 s)
+  energy-charge       Energy charge: A rising electronic whine before a shot. (2 s)
+  shield-hit          Shield hit: An energy shield taking a hit, buzzing and shimmering. (1 s)
+  robot-servo         Robot servo: A short mechanical whir. (1 s)
+  ray-gun             Ray gun: A wobbly retro zap. (0.86 s)
+  reload              Reload: A metallic click and clack. (0.25 s)
+  force-field         Force field: A steady low electric hum. (4.28 s, loops)
+  plasma-shot         Plasma shot: A thick, buzzing energy bolt firing. (1 s)
+  shield-up           Shield on: An energy shield powering up. (1.48 s)
+  shield-down         Shield off: An energy shield fading out. (1.5 s)
+  warp                Warp: A spaceship jumping to warp speed. (2.46 s)
+  scanner             Scanner beep: A soft scanning sweep with beeps. (2 s)
+  door-sliding        Sliding door: A spaceship door hissing open. (1.5 s)
+  drone-hover         Drone hover: A small drone hovering with a steady whir. (4 s)
+  power-down          Power down: A machine shutting down. (2 s)
+
+PICKUPS AND REWARDS
+  coin-bell           Coin bell: Two quick bright dings. (1 s)
+  coin-glockenspiel   Coin glockenspiel: Two fast rising notes. (1 s)
+  coin-drop           Coin drop: A metal coin landing and ringing on a table. (0.85 s)
+  gem                 Gem: A clear crystal ting. (1 s)
+  health              Health: A soft, warm rising chime. (1.46 s)
+  key                 Key: A short jingle of keys. (0.95 s)
+  power-up            Power up: Bright bells rising quickly. (1.5 s)
+  chest-open          Chest open: An old wooden chest creaking open. (2 s)
+  ring                Ring pickup: A light sparkling ting. (0.4 s)
+  coin-bag            Bag of coins: A pouch of coins jingling. (1.03 s)
+  extra-life          Extra life: A happy rising run of bells. (1.5 s)
+  ammo                Ammo pickup: Bullets clicking into a box. (0.91 s)
+  bonus               Bonus: A short sparkly two-tone reward. (0.5 s)
+  item-equip          Equip item: Gear being put on with a clink. (0.82 s)
+  scroll              Scroll pickup: Paper unrolling with a soft rustle. (1.22 s)
+  food                Food pickup: A crunchy bite of an apple. (0.85 s)
+
+MOVEMENT
+  jump                Jump: A sneaker scuff and a short whoosh. (0.8 s)
+  land                Land: A soft thud on landing. (0.65 s)
+  steps-grass         Footsteps on grass: Soft rustling steps. (3 s)
+  steps-stone         Footsteps on stone: Hard, clear steps. (2.93 s)
+  steps-wood          Footsteps on wood: Hollow, creaky steps. (2.96 s)
+  dash                Dash: A very fast whoosh. (0.9 s)
+  ladder              Ladder climb: Rhythmic clanks on a metal ladder. (2.83 s)
+  splash              Splash: A big splash into water. (1.92 s)
+  steps-metal         Steps on metal: Footsteps on a metal floor. (3 s)
+  steps-sand          Steps on sand: Soft crunching steps in sand. (3 s)
+  steps-snow          Steps in snow: Crunchy steps in fresh snow. (3 s)
+  double-jump         Double jump: Two quick airy whooshes. (0.25 s)
+  slide               Slide: Sliding across a floor. (1.06 s)
+  swim                Swim: Arms paddling through water. (2.99 s)
+
+INTERFACE
+  click               Button click: A soft, clean click. (0.15 s)
+  tap                 Tap: A light knock. (0.5 s)
+  toggle              Toggle: A crisp switch flip. (0.1 s)
+  menu-open           Menu open: A soft swoosh. (0.46 s)
+  menu-close          Menu close: A soft swoosh falling in pitch. (0.47 s)
+  error               Error: A short low buzz. (0.91 s)
+  confirm             Confirm: A pleasant two note chime. (1 s)
+  notification        Notification: A single soft ding. (0.96 s)
+  purchase            Purchase: Coins dropping into a till with a ding. (1.5 s)
+  level-up            Level up: A bright rising run of chimes. (2 s)
+  unlock              Unlock: A padlock clicking open. (0.83 s)
+  typing              Typing: Fast typing on a keyboard. (2.97 s)
+  slider-tick         Slider tick: Small ticks like a dial turning. (0.85 s)
+  popup               Popup: A soft bubbly pop. (0.25 s)
+  page-turn           Page turn: A paper page turning. (0.84 s)
+  message             Message: Two soft rising notes. (0.97 s)
+  warning             Warning: Two short low tones. (1 s)
+  select              Select: A crisp, bright click. (0.11 s)
+
+GAME MOMENTS
+  game-over           Game over: A short sad descending jingle. (1.76 s)
+  level-complete      Level complete: A short happy fanfare. (2.49 s)
+  victory             Victory: A cheerful jingle with bells. (1.95 s)
+  countdown           Countdown: Three beeps and a higher one. (3.56 s)
+  clock-tick          Clock tick: A steady ticking clock. (3.11 s)
+  alarm               Alarm: An electronic alarm beeping. (2.8 s)
+  checkpoint          Checkpoint: A warm bell telling you progress is saved. (2 s)
+  new-record          New record: A short bright fanfare of bells. (2.42 s)
+  pause               Pause: A soft low tone fading. (1.5 s)
+  quest-complete      Quest complete: A warm harp and bell flourish. (2.8 s)
+  time-up             Time up: A buzzer sounding twice. (1.02 s)
+  crowd-cheer         Crowd cheer: A small crowd cheering and clapping. (3.93 s)
+
+CREATURES
+  monster-growl       Monster growl: A small monster’s snarl. (0.95 s)
+  creature-squeak     Creature squeak: A tiny, cute squeak. (0.95 s)
+  dragon-roar         Dragon roar: A huge, rumbling roar. (2.81 s)
+  zombie-groan        Zombie groan: A slow, raspy moan. (2.4 s)
+  bat-wings           Bat wings: Quick flapping wings. (1.97 s)
+  insect-buzz         Insect buzz: A large insect buzzing around. (3 s)
+  wolf-howl           Wolf howl: A wolf howling at night. (3.96 s)
+  slime               Slime: A wet squish and splat. (1.43 s)
+  spider              Spider: Many tiny legs skittering. (2 s)
+  ghost               Ghost: A hollow, breathy moan. (2.97 s)
+  goblin-laugh        Goblin laugh: A small creature cackling. (2 s)
+  bird                Bird: A crow cawing. (1.2 s)
+  frog                Frog: A frog croaking. (2 s)
+  boss-roar           Boss roar: A giant beast's long deep roar. (3.5 s)
+
+MAGIC
+  spell-cast          Spell cast: A whoosh with a shimmering sparkle. (1.32 s)
+  fireball            Fireball: A roaring whoosh of flames. (1.47 s)
+  ice                 Ice: Sharp crystalline cracking. (1.48 s)
+  lightning           Lightning: An electric crack and a rumble of thunder. (2.5 s)
+  heal                Heal: Soft bright chimes over a warm hum. (1.9 s)
+  teleport            Teleport: A magical whoosh that rises and fades. (1.37 s)
+  potion              Potion: Liquid bubbling in a glass bottle. (1.94 s)
+  portal              Portal: A deep, swirling magical hum. (3.53 s, loops)
+  poison              Poison: Bubbling, hissing green goo. (1.87 s)
+  wind-spell          Wind spell: A swirling gust of wind. (1.49 s)
+  earth-spell         Earth spell: The ground rumbling and rocks rising. (1.52 s)
+  buff                Buff: A bright rising shimmer. (1.49 s)
+  debuff              Debuff: A dark falling shimmer. (1.5 s)
+  curse               Curse: Low whispery magic with a dark hum. (2.47 s)
+  summon              Summon: A deep magical swell and burst. (1.93 s)
+  magic-shield        Magic shield: A glassy magic barrier forming. (1.86 s)
+
+AMBIENT LOOPS
+  rain                Rain: Steady rain on leaves and ground. (13.2 s, loops)
+  wind                Wind: Strong wind through trees. (13.2 s, loops)
+  campfire            Campfire: Crackling and popping fire. (13.2 s, loops)
+  forest              Forest: A peaceful forest with birds. (13.2 s, loops)
+  cave                Cave: Water dripping in a quiet, echoing cave. (13.2 s, loops)
+  ocean               Ocean: Waves washing onto a sandy beach. (13.2 s, loops)
+  river               River: A stream flowing over rocks. (13.2 s, loops)
+  night               Night: Crickets on a calm night. (13.2 s, loops)
+  desert-wind         Desert wind: Dry wind blowing over sand. (13.2 s, loops)
+  city-night          City at night: Distant traffic and a quiet city hum. (13.2 s, loops)
+  dungeon             Dungeon: Dripping water and a low draft underground. (13.2 s, loops)
+  rain-roof           Rain on a roof: Rain pattering on a wooden roof. (13.2 s, loops)
+
+
+everyday-foley-mechanical-sfx-rubberduck-03d5f8b0
+LICENSE.txt
+CC0 1.0
+
+Official license terms: https://creativecommons.org/publicdomain/zero/1.0/
+
+CC0 · public domain dedication · commercial use, resale and redistribution allowed
+
+Keep the creator, source and license information supplied with the asset. Consult the linked license for its complete terms.
+
+SOURCES-AND-CREDITS.txt
+rubberduck
+https://opengameart.org/content/100-cc0-sfx
+
+Timpani-SFZ+WAV-20240810
+LICENSE.txt
+Creative Commons Legal Code
+
+CC0 1.0 Universal
+
+    CREATIVE COMMONS CORPORATION IS NOT A LAW FIRM AND DOES NOT PROVIDE
+    LEGAL SERVICES. DISTRIBUTION OF THIS DOCUMENT DOES NOT CREATE AN
+    ATTORNEY-CLIENT RELATIONSHIP. CREATIVE COMMONS PROVIDES THIS
+    INFORMATION ON AN "AS-IS" BASIS. CREATIVE COMMONS MAKES NO WARRANTIES
+    REGARDING THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS
+    PROVIDED HEREUNDER, AND DISCLAIMS LIABILITY FOR DAMAGES RESULTING FROM
+    THE USE OF THIS DOCUMENT OR THE INFORMATION OR WORKS PROVIDED
+    HEREUNDER.
+
+Statement of Purpose
+
+The laws of most jurisdictions throughout the world automatically confer
+exclusive Copyright and Related Rights (defined below) upon the creator
+and subsequent owner(s) (each and all, an "owner") of an original work of
+authorship and/or a database (each, a "Work").
+
+Certain owners wish to permanently relinquish those rights to a Work for
+the purpose of contributing to a commons of creative, cultural and
+scientific works ("Commons") that the public can reliably and without fear
+of later claims of infringement build upon, modify, incorporate in other
+works, reuse and redistribute as freely as possible in any form whatsoever
+and for any purposes, including without limitation commercial purposes.
+These owners may contribute to the Commons to promote the ideal of a free
+culture and the further production of creative, cultural and scientific
+works, or to gain reputation or greater distribution for their Work in
+part through the use and efforts of others.
+
+For these and/or other purposes and motivations, and without any
+expectation of additional consideration or compensation, the person
+associating CC0 with a Work (the "Affirmer"), to the extent that he or she
+is an owner of Copyright and Related Rights in the Work, voluntarily
+elects to apply CC0 to the Work and publicly distribute the Work under its
+terms, with knowledge of his or her Copyright and Related Rights in the
+Work and the meaning and intended legal effect of CC0 on those rights.
+
+1. Copyright and Related Rights. A Work made available under CC0 may be
+protected by copyright and related or neighboring rights ("Copyright and
+Related Rights"). Copyright and Related Rights include, but are not
+limited to, the following:
+
+  i. the right to reproduce, adapt, distribute, perform, display,
+     communicate, and translate a Work;
+ ii. moral rights retained by the original author(s) and/or performer(s);
+iii. publicity and privacy rights pertaining to a person's image or
+     likeness depicted in a Work;
+ iv. rights protecting against unfair competition in regards to a Work,
+     subject to the limitations in paragraph 4(a), below;
+  v. rights protecting the extraction, dissemination, use and reuse of data
+     in a Work;
+ vi. database rights (such as those arising under Directive 96/9/EC of the
+     European Parliament and of the Council of 11 March 1996 on the legal
+     protection of databases, and under any national implementation
+     thereof, including any amended or successor version of such
+     directive); and
+vii. other similar, equivalent or corresponding rights throughout the
+     world based on applicable law or treaty, and any national
+     implementations thereof.
+
+2. Waiver. To the greatest extent permitted by, but not in contravention
+of, applicable law, Affirmer hereby overtly, fully, permanently,
+irrevocably and unconditionally waives, abandons, and surrenders all of
+Affirmer's Copyright and Related Rights and associated claims and causes
+of action, whether now known or unknown (including existing as well as
+future claims and causes of action), in the Work (i) in all territories
+worldwide, (ii) for the maximum duration provided by applicable law or
+treaty (including future time extensions), (iii) in any current or future
+medium and for any number of copies, and (iv) for any purpose whatsoever,
+including without limitation commercial, advertising or promotional
+purposes (the "Waiver"). Affirmer makes the Waiver for the benefit of each
+member of the public at large and to the detriment of Affirmer's heirs and
+successors, fully intending that such Waiver shall not be subject to
+revocation, rescission, cancellation, termination, or any other legal or
+equitable action to disrupt the quiet enjoyment of the Work by the public
+as contemplated by Affirmer's express Statement of Purpose.
+
+3. Public License Fallback. Should any part of the Waiver for any reason
+be judged legally invalid or ineffective under applicable law, then the
+Waiver shall be preserved to the maximum extent permitted taking into
+account Affirmer's express Statement of Purpose. In addition, to the
+extent the Waiver is so judged Affirmer hereby grants to each affected
+person a royalty-free, non transferable, non sublicensable, non exclusive,
+irrevocable and unconditional license to exercise Affirmer's Copyright and
+Related Rights in the Work (i) in all territories worldwide, (ii) for the
+maximum duration provided by applicable law or treaty (including future
+time extensions), (iii) in any current or future medium and for any number
+of copies, and (iv) for any purpose whatsoever, including without
+limitation commercial, advertising or promotional purposes (the
+"License"). The License shall be deemed effective as of the date CC0 was
+applied by Affirmer to the Work. Should any part of the License for any
+reason be judged legally invalid or ineffective under applicable law, such
+partial invalidity or ineffectiveness shall not invalidate the remainder
+of the License, and in such case Affirmer hereby affirms that he or she
+will not (i) exercise any of his or her remaining Copyright and Related
+Rights in the Work or (ii) assert any associated claims and causes of
+action with respect to the Work, in either case contrary to Affirmer's
+express Statement of Purpose.
+
+4. Limitations and Disclaimers.
+
+ a. No trademark or patent rights held by Affirmer are waived, abandoned,
+    surrendered, licensed or otherwise affected by this document.
+ b. Affirmer offers the Work as-is and makes no representations or
+    warranties of any kind concerning the Work, express, implied,
+    statutory or otherwise, including without limitation warranties of
+    title, merchantability, fitness for a particular purpose, non
+    infringement, or the absence of latent or other defects, accuracy, or
+    the present or absence of errors, whether or not discoverable, all to
+    the greatest extent permissible under applicable law.
+ c. Affirmer disclaims responsibility for clearing rights of other persons
+    that may apply to the Work or any use thereof, including without
+    limitation any person's Copyright and Related Rights in the Work.
+    Further, Affirmer disclaims responsibility for obtaining any necessary
+    consents, permissions or other rights required for any use of the
+    Work.
+ d. Affirmer understands and acknowledges that Creative Commons is not a
+    party to this document and has no duty or obligation with respect to
+    this CC0 or use of the Work.
+
+README.txt
+Timpani
+-------
+
+Version 2024-08-10
+
+Made with samples from the Versilian Community Sample Library, a CC0 sample library created by Versilian Studios LLC. This sound bank is assembled by roberto@zenvoid.org.
+
+Please visit FreePats web pages for updates and more content:
+http://freepats.zenvoid.org/
+
+
+Published under the terms of Creative Commons CC0 public domain dedication:
+https://creativecommons.org/publicdomain/zero/1.0/
+
+
+Source mapping (new or replaced clips):
+land-v2: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Whooshes/DAEDAL_Whoosh_01_Fast.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_02_Punch.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/paper-01-3b343650.ogg
+land-v3: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Whooshes/DAEDAL_Whoosh_07_Tight.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_05_Thud_Dry.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/paper-02-d9f8a4cf.ogg
+land-v4: alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-whoosh-heavy-1.wav, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-hit-punch-1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/paper-03-761fec44.ogg
+land-rival-v2: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Whooshes/DAEDAL_Whoosh_02_Airy.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_05_Thud_Dry.wav
+land-rival-v3: alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-whoosh-soft-1.wav, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-hit-punch-1.wav
+land-awake-v2: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Whooshes/DAEDAL_Whoosh_04_Whip.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3C_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-01-10a91d61.ogg
+land-awake-v3: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Whooshes/DAEDAL_Whoosh_03_Deep.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/2B_v5_rr2.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/metal-04-3ceff9ca.ogg
+tap-v2: everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/switch-01-3ba6bb15.ogg
+tap-v3: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/UI_Clicks_Pops/DAEDAL_Click_02_Soft.wav
+skill-v2: spritepilot-sound-effects/spritepilot-sound-effects/wav/magic/spell-cast.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+skill-v3: spritepilot-sound-effects/spritepilot-sound-effects/wav/magic/wind-spell.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+counter-v2: spritepilot-sound-effects/spritepilot-sound-effects/wav/combat/parry.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/metal-03-03941bc9.ogg, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+counter-v3: spritepilot-sound-effects/spritepilot-sound-effects/wav/combat/shield-block.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/metal-03-03941bc9.ogg, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+special-v2: spritepilot-sound-effects/spritepilot-sound-effects/wav/scifi/energy-charge.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3A_v5_rr1.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+special-v3: spritepilot-sound-effects/spritepilot-sound-effects/wav/magic/summon.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3A_v5_rr1.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+skill-ally: spritepilot-sound-effects/spritepilot-sound-effects/wav/magic/buff.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-02-7ccbfdbb.ogg, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+skill-ally-v2: spritepilot-sound-effects/spritepilot-sound-effects/wav/magic/heal.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-02-7ccbfdbb.ogg, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+skill-reverse: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Whooshes/DAEDAL_Whoosh_04_Whip.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/2A_v5_rr2.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+skill-reverse-v2: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Whooshes/DAEDAL_Whoosh_03_Deep.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/2A_v5_rr2.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+skill-rival: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/UI_Clicks_Pops/DAEDAL_Swipe_02_Down.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_05_Thud_Dry.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+skill-rival-v2: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Whooshes/DAEDAL_Whoosh_02_Airy.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_05_Thud_Dry.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+skill-bond: spritepilot-sound-effects/spritepilot-sound-effects/wav/magic/heal.wav, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-ding-chime-1.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+skill-bond-v2: spritepilot-sound-effects/spritepilot-sound-effects/wav/pickups/gem.wav, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-ding-chime-1.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_029_1s.wav
+combo-v2: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_003_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3C_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-01-10a91d61.ogg, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+combo-v3: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_Riser_006_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3A_v5_rr2.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-03-f39b4d5f.ogg, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+combo5-v2: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_003_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3C_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-01-10a91d61.ogg, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+combo5-v3: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_Riser_006_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3A_v5_rr2.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-03-f39b4d5f.ogg, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+super-v2: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_003_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3C_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-01-10a91d61.ogg, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+super-v3: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_Riser_006_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3A_v5_rr2.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-03-f39b4d5f.ogg, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+combo-tokyo: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_003_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3C_v5_rr1.wav, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-ding-chime-1.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+combo-tokyo-v2: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_Riser_006_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3A_v5_rr2.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-02-7ccbfdbb.ogg, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+combo-teidai: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_003_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/1D_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/gong-01-ad55eb07.ogg, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+combo-teidai-v2: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_Riser_006_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/2B_v5_rr2.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/gong-02-7f132f5a.ogg, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+combo-rival: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_003_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3C_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-01-10a91d61.ogg, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+combo-rival-v2: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_Riser_006_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3A_v5_rr2.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-03-f39b4d5f.ogg, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_04_Hit_Tail.wav
+promotion-intro: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Risers/DAEDAL_Riser_04_Short_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/1D_v5_rr2.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/gong-01-ad55eb07.ogg
+rankup: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_008_1s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3C_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-01-10a91d61.ogg, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-ding-chime-1.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/5B_v5_rr1.wav
+promotion-unlock: DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/UI_Clicks_Pops/DAEDAL_Swipe_01_Up.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-02-7ccbfdbb.ogg, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3B_v5_rr1.wav
+flip: alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-paper-flip-1.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Whooshes/DAEDAL_Whoosh_07_Tight.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/switch-02-9741d722.ogg
+awaken: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_039_1s.wav, spritepilot-sound-effects/spritepilot-sound-effects/wav/magic/buff.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-03-f39b4d5f.ogg, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3C_v5_rr2.wav
+discovery-3: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_043_1s.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_049_2s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/4A_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-02-7ccbfdbb.ogg, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-ding-chime-1.wav
+discovery-4: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_043_1s.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_049_2s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3C_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-01-10a91d61.ogg, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-ding-chime-1.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_01_Cinematic_Boom.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-03-f39b4d5f.ogg
+discovery-5: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_043_1s.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_049_2s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/1D_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/gong-01-ad55eb07.ogg, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-ding-chime-1.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_01_Cinematic_Boom.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-03-f39b4d5f.ogg, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/2B_v5_rr1.wav, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-ding-chime-1.wav
+Tubular Bells archive was not used (unsupported 7z audio filter).
