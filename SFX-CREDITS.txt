@@ -1,0 +1,47 @@
+CAMPUS LEGENDS v0.67 — SFX sources (CC0 1.0)
+
+Source packs: alfred.makes Starter Sound Kit; DAEDAL Cinematic Impacts; DAEDAL Whoosh Library.
+https://creativecommons.org/publicdomain/zero/1.0/
+DAEDAL: procedurally synthesized by DAEDAL, not field recordings.
+All new effects are edited and layered from the source WAVs.
+
+Original alfred.makes credits:
+file,role,freesound_url,author,original_name,licence_url,avg_rating,num_ratings,num_downloads,download_date
+alfredmakes-pop-cartoon-1.wav,pop,https://freesound.org/people/unfa/sounds/245645/,unfa,Cartoon Pop (Clean),http://creativecommons.org/publicdomain/zero/1.0/,4.60,378,47506,2026-10-14
+alfredmakes-pop-mouth-1.wav,pop,https://freesound.org/people/quatricise/sounds/789793/,quatricise,Pop 4,http://creativecommons.org/publicdomain/zero/1.0/,4.77,87,3164,2026-10-14
+alfredmakes-pop-tiny-1.wav,pop,https://freesound.org/people/ImAFoley/sounds/537061/,ImAFoley,Message Pop Sound,http://creativecommons.org/publicdomain/zero/1.0/,4.64,100,9300,2026-10-14
+alfredmakes-pop-clean-1.wav,pop,https://freesound.org/people/D.S.G./sounds/244655/,D.S.G.,Pop 1,http://creativecommons.org/publicdomain/zero/1.0/,4.54,90,13740,2026-10-14
+alfredmakes-whoosh-soft-1.wav,whoosh,https://freesound.org/people/Sclolex/sounds/179779/,Sclolex,wipe2.wav,http://creativecommons.org/publicdomain/zero/1.0/,4.71,21,3694,2026-10-14
+alfredmakes-whoosh-air-1.wav,whoosh,https://freesound.org/people/florianreichelt/sounds/683096/,florianreichelt,Woosh,http://creativecommons.org/publicdomain/zero/1.0/,4.64,508,30987,2026-10-14
+alfredmakes-whoosh-fast-1.wav,whoosh,https://freesound.org/people/qubodup/sounds/60007/,qubodup,Swipe Whoosh,http://creativecommons.org/publicdomain/zero/1.0/,4.64,161,25165,2026-10-14
+alfredmakes-whoosh-heavy-1.wav,whoosh,https://freesound.org/people/dave.des/sounds/127197/,dave.des,fast simple chop 5.aif,http://creativecommons.org/publicdomain/zero/1.0/,4.57,146,23168,2026-10-14
+alfredmakes-whoosh-swish-1.wav,whoosh,https://freesound.org/people/lesaucisson/sounds/585257/,lesaucisson,swoosh-1.mp3,http://creativecommons.org/publicdomain/zero/1.0/,4.73,211,16589,2026-10-14
+alfredmakes-whoosh-out-reverse-1.wav,swoosh-out,https://freesound.org/people/SlavicMagic/sounds/446010/,SlavicMagic,Backwards Whoosh,http://creativecommons.org/publicdomain/zero/1.0/,4.55,31,4744,2026-10-14
+alfredmakes-click-ui-1.wav,click,https://freesound.org/people/Breviceps/sounds/448086/,Breviceps,Normal click,http://creativecommons.org/publicdomain/zero/1.0/,4.79,90,7238,2026-10-14
+alfredmakes-click-button-1.wav,click,https://freesound.org/people/brnck/sounds/257357/,brnck,Button click.wav,http://creativecommons.org/publicdomain/zero/1.0/,4.70,60,7622,2026-10-14
+alfredmakes-click-crisp-1.wav,click,https://freesound.org/people/aphom000/sounds/687105/,aphom000,Mouse 1 Button Fast Click.wav,http://creativecommons.org/publicdomain/zero/1.0/,4.81,80,3975,2026-10-14
+alfredmakes-typing-keyboard-1.wav,typing,https://freesound.org/people/justinsalamon/sounds/152586/,justinsalamon,computer_keyboard.wav,http://creativecommons.org/publicdomain/zero/1.0/,4.70,10,1486,2026-10-14
+alfredmakes-typing-hard-1.wav,typing,https://freesound.org/people/khenshom/sounds/565205/,khenshom,Computer keyboard - Pressing fast and hard,http://creativecommons.org/publicdomain/zero/1.0/,4.92,13,846,2026-10-14
+alfredmakes-ding-notification-1.wav,ding,https://freesound.org/people/yfjesse/sounds/235911/,yfjesse,Notification Sound,http://creativecommons.org/publicdomain/zero/1.0/,4.66,134,21459,2026-10-14
+alfredmakes-ding-chime-1.wav,ding,https://freesound.org/people/Jofae/sounds/380482/,Jofae,Chime Notification,http://creativecommons.org/publicdomain/zero/1.0/,4.89,62,7617,2026-10-14
+alfredmakes-ding-bell-1.wav,ding,https://freesound.org/people/5ro4/sounds/611113/,5ro4,bell ding 1.wav,http://creativecommons.org/publicdomain/zero/1.0/,4.61,203,10211,2026-10-14
+alfredmakes-tick-clock-1.wav,tick,https://freesound.org/people/pbimal/sounds/534094/,pbimal,clock-tick-01.flac,http://creativecommons.org/publicdomain/zero/1.0/,4.50,42,2185,2026-10-14
+alfredmakes-riser-noise-1.wav,riser,https://freesound.org/people/syntheffects/sounds/685256/,syntheffects,Riser sound effect short.wav,http://creativecommons.org/publicdomain/zero/1.0/,4.71,116,7632,2026-10-14
+alfredmakes-riser-cymbal-1.wav,riser,https://freesound.org/people/loganzsound/sounds/774635/,loganzsound,Reverse Cymbal Shiny,http://creativecommons.org/publicdomain/zero/1.0/,4.77,22,1122,2026-10-14
+alfredmakes-thud-boom-1.wav,thud,https://freesound.org/people/XHALE303/sounds/535592/,XHALE303,BOOM IMPACT 2,http://creativecommons.org/publicdomain/zero/1.0/,4.58,40,6713,2026-10-14
+alfredmakes-hit-punch-1.wav,hit,https://freesound.org/people/newagesoup/sounds/348242/,newagesoup,PUNCH-BOXING-03.wav,http://creativecommons.org/publicdomain/zero/1.0/,4.62,90,11136,2026-10-14
+alfredmakes-glitch-digital-1.wav,glitch,https://freesound.org/people/AmicaSys/sounds/332711/,AmicaSys,Glitch,http://creativecommons.org/publicdomain/zero/1.0/,4.60,182,34049,2026-10-14
+alfredmakes-shutter-camera-1.wav,shutter,https://freesound.org/people/roachpowder/sounds/170229/,roachpowder,Camera Shutter,http://creativecommons.org/publicdomain/zero/1.0/,4.79,91,14596,2026-10-14
+alfredmakes-paper-flip-1.wav,paper,https://freesound.org/people/yatoimtop/sounds/346835/,yatoimtop,PageTurn.wav,http://creativecommons.org/publicdomain/zero/1.0/,4.88,41,2492,2026-10-14
+
+
+DAEDAL license:
+DAEDAL free packs — License: CC0 1.0 Universal (Public Domain Dedication)
+
+To the extent possible under law, the authors have waived all copyright and related
+rights to the files in this pack. You can use them in personal and commercial projects
+(client work, YouTube, ads, films), modify them, and redistribute them, without asking
+permission and without attribution. Credit is appreciated but never required.
+
+Full legal text: https://creativecommons.org/publicdomain/zero/1.0/legalcode
+All files were generated procedurally by DAEDAL; no third-party footage or presets were used.
