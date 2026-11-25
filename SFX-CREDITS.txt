@@ -507,3 +507,8 @@ discovery-3: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseC
 discovery-4: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_043_1s.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_049_2s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/3C_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-01-10a91d61.ogg, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-ding-chime-1.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_01_Cinematic_Boom.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-03-f39b4d5f.ogg
 discovery-5: DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_ReverseCymbal_043_1s.wav, DAEDAL_Risers_and_Tension/DAEDAL Risers and Tension/DAEDAL_AirRiser_049_2s.wav, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/1D_v5_rr1.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/gong-01-ad55eb07.ogg, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-ding-chime-1.wav, DAEDAL_Transition_SFX_Pack/DAEDAL Transition SFX Pack/Impacts/DAEDAL_Impact_01_Cinematic_Boom.wav, everyday-foley-mechanical-sfx-rubberduck-03d5f8b0/bell-03-f39b4d5f.ogg, Timpani-SFZ+WAV-20240810/Timpani SFZ+WAV-20240810/samples/2B_v5_rr1.wav, alfredmakes-sound-kit/alfredmakes-sound-kit/kit/alfredmakes-ding-chime-1.wav
 Tubular Bells archive was not used (unsupported 7z audio filter).
+
+Additional premium scout sounds in v0.77 were edited from these sources:
+- DAEDAL UI Sounds: DAEDAL_UI_028_029_030_031_033
+- DAEDAL Trailer Design: DAEDAL_Swell_17_19_23_Major, DAEDAL_Stinger_24_28_29_30
+All provided under the same packs already credited above.
