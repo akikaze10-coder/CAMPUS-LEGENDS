@@ -1800,8 +1800,72 @@ img[src*="portrait_hokudai_agriculture"]{transform:scale(1.09);transform-origin:
 #app .pack-modal-back .pack-modal,#app .pack-modal-back .cardback{animation:none!important;transition:none!important;}
 
 @media(max-height:630px),(max-width:350px){#app .battle-screen .cl51-board .v42-boardtext b,#app .battle-screen .cl51-board .v42-boardtext span{font-size:7px!important;}}
+</style><style>
+/* v0.90 — display stability, compact card labels, short-screen access */
+#app .ucard.cl-card:not(.mini) .cl-head{gap:1px!important;padding:0 3px!important;align-items:center!important;overflow:visible!important;}
+#app .ucard.cl-card:not(.mini) .cl-head .cl-rarity{flex:0 0 auto!important;max-width:none!important;line-height:1.15!important;letter-spacing:0!important;}
+#app .ucard.cl-card:not(.mini) .cl-head .cl-stars{flex:0 0 auto!important;max-width:none!important;line-height:1.15!important;overflow:visible!important;letter-spacing:-.10em!important;}
+#app .ucard.cl-card.compact.battle-hand .cl-head .cl-rarity{font-size:7px!important;}
+#app .ucard.cl-card.compact.battle-hand .cl-head .cl-stars{font-size:6px!important;}
+.cl90-artbadges{position:absolute;top:2px;left:2px;z-index:9;display:flex;flex-wrap:wrap;gap:2px;max-width:calc(100% - 4px);pointer-events:none;}
+.cl90-artbadges:empty{display:none}
+.cl90-artbadges .cl64-awake-badge,.cl90-artbadges .v39-spec-badge{margin:0!important;font-size:8px!important;line-height:1.05!important;padding:1px 2px!important;}
+.cl90-qty,.cl90-new{position:absolute;z-index:9;font-size:8px;line-height:1.1;font-weight:850;border:1px solid #ffffff9a;border-radius:4px;padding:1px 3px;pointer-events:none;}
+.cl90-qty{bottom:2px;right:2px;color:#fff;background:#142642e8;}
+.cl90-new{top:2px;right:2px;color:#322410;background:#f4db85;}
+#app .ucard.cl-card.compact.battle-hand .cl-fieldline{flex-wrap:nowrap!important;gap:2px!important;min-width:0!important;}
+#app .ucard.cl-card.compact.battle-hand .cl-fieldpill,#app .ucard.cl-card.compact.battle-hand .cl-regionpill{min-width:0!important;white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;}
+/* Visible rarity filters, rather than hidden horizontal overflow. */
+#app .collection-screen .filters{flex-wrap:wrap;overflow:visible;gap:4px;}
+#app .collection-screen .filters .filter{flex:0 0 auto;white-space:nowrap;}
+/* Modal content is a self-contained scrolling surface; no offscreen sheet animation. */
+#app .modal-back:not(.pack-modal-back){box-sizing:border-box;align-items:end;justify-items:center;padding:max(8px,env(safe-area-inset-top,0px)) 8px max(8px,env(safe-area-inset-bottom,0px));overflow:hidden;}
+#app .modal-back:not(.pack-modal-back) .modal{box-sizing:border-box;min-height:0;max-height:min(940px,calc(100dvh - max(8px,env(safe-area-inset-top,0px)) - max(8px,env(safe-area-inset-bottom,0px))));animation:none!important;overflow-y:auto;overscroll-behavior:contain;}
+#app .modalbar{min-width:0;}
+#app .modalbar b{min-width:0;overflow-wrap:anywhere;}
+#app .modalbar .close{flex:0 0 auto;}
+body:has(#app .modal-back){overflow:hidden;}
+#app .packReveal .reveal-grid{overscroll-behavior:contain;}
+/* Toasts above the sheet's action buttons, instead of covering the rewards. */
+body:has(#app .modal-back) .snack{top:max(8px,env(safe-area-inset-top,0px));bottom:auto;pointer-events:none;max-width:min(90%,500px);font-size:11px;padding:7px 12px;}
+/* Short and horizontal screens must allow scrolling to every battle control. */
+@media(max-height:630px){
+ #app.app:has(.battle-screen){height:auto!important;max-height:none!important;overflow:visible!important;}
+ #app .battle-screen{height:auto!important;overflow:visible!important;padding-bottom:calc(var(--bt-nav,64px) + 16px)!important;}
+ #app .battle-screen .lane{min-height:0!important;}
+ #app .battle-screen>.arena{min-height:208px!important;}
+ #app .battle-screen>.hand{min-height:126px!important;}
+ #app .battle-screen .cl90-artbadges .cl64-awake-badge,#app .battle-screen .cl90-artbadges .v39-spec-badge{font-size:7px!important;}
+}
+@media(max-height:500px) and (orientation:landscape){
+ body{padding-top:0!important;padding-bottom:0!important;}
+ #app.app{margin-top:0!important;margin-bottom:0!important;}
+ #app .battle-screen .cl51-board img{max-height:36px;}
+ #app .packReveal .reveal-grid{grid-template-columns:repeat(5,minmax(0,1fr))!important;max-width:none!important;}
+ #app .packReveal .reveal-actions{gap:2px!important;padding-top:3px!important;}
+ #app .packReveal .reveal-actions .btn{min-height:34px!important;font-size:13px!important;}
+}
+@media(max-width:350px){
+ #app .ucard.cl-card.compact.battle-hand .cl-head{padding-inline:2px!important;}
+ #app .ucard.cl-card.compact.battle-hand.legend .cl-head .cl-rarity{font-size:6px!important;}
+ #app .ucard.cl-card.compact.battle-hand .cl-head .cl-stars{font-size:5.5px!important;}
+ #app .ucard.cl-card.compact.battle-hand .cl-fieldpill,#app .ucard.cl-card.compact.battle-hand .cl-regionpill{font-size:7px!important;padding-inline:1px!important;}
+}
+@media(prefers-reduced-motion:reduce){#app .packReveal .reveal-grid .revealedcard.cl60-fresh,#app .packReveal .reveal-grid .cardwrap,#app .packReveal .reveal-grid .cardback{animation:none!important;transform:none!important;}}
+</style><style>/* Narrow-screen premium offer: prevent awkward headline wrapping and preserve readable featured copy. */
+#app .cl77-premium-offer-head>div{min-width:0;}
+#app .pickup-classic .pickup-message span{display:block!important;white-space:normal!important;overflow:visible!important;-webkit-line-clamp:unset!important;line-height:1.35!important;}
+#app .pickup-classic .pickup-message b{white-space:normal!important;overflow:visible!important;overflow-wrap:anywhere!important;}
+@media(max-width:430px){#app .cl77-premium-offer-head{flex-direction:column;gap:9px;}#app .cl77-premium-offer .btn{width:100%;min-width:0;min-height:44px;}#app .cl77-premium-offer-title{font-size:17px;line-height:1.3;}#app .cl77-premium-offer-kicker{letter-spacing:.12em;}}
+</style><style>/* Filled arena must accommodate the three actual board-card rows. */
+#app .battle-screen>.arena{height:auto!important;min-height:max(var(--cl71-arena,350px),350px)!important;flex:0 0 auto!important;}
+#app .battle-screen .slotgroup{min-height:108px!important;grid-template-rows:repeat(2,minmax(52px,1fr))!important;flex:1 1 auto!important;}
+#app .battle-screen .v42-boardinspect.cl51-board{min-height:0!important;}
+@media(max-height:630px){#app .battle-screen>.arena{min-height:max(var(--cl71-arena,280px),280px)!important;}#app .battle-screen .slotgroup{min-height:76px!important;grid-template-rows:repeat(2,minmax(36px,1fr))!important;}}
+/* A sticky header and fixed navigation stay outside the hand's scroll target. */
+#app .battle-screen>.hand{scroll-margin-block:48px calc(var(--bt-nav,64px) + 8px);}
 </style></head>
-<body><div id="cl52-status" role="status" aria-live="polite"><div class="cl52-inner"><div class="cl52-kicker">UNIVERSITY CARD BATTLE · Ver. 0.89.0</div><div class="cl52-logo">CAMPUS<br><em>LEGENDS</em></div><strong id="cl52-label">ゲームを読み込んでいます</strong><div class="cl52-track" id="cl52-track"><i></i></div><p id="cl52-detail">ゲーム本体を準備しています。セーブデータはそのままです。</p><div id="cl52-retry" hidden><button type="button" onclick="location.reload()">再試行</button><a href="./launch-recovery.html">起動の復旧</a></div></div></div><div id="cl52-update" hidden role="status" aria-live="polite"><span id="cl52-update-text"></span><button id="cl52-update-action" hidden>閉じる</button></div><div id="app" class="app"><noscript>JavaScriptを有効にしてください。</noscript></div><script>
+<body><div id="cl52-status" role="status" aria-live="polite"><div class="cl52-inner"><div class="cl52-kicker">UNIVERSITY CARD BATTLE · Ver. 0.90.0</div><div class="cl52-logo">CAMPUS<br><em>LEGENDS</em></div><strong id="cl52-label">ゲームを読み込んでいます</strong><div class="cl52-track" id="cl52-track"><i></i></div><p id="cl52-detail">ゲーム本体を準備しています。セーブデータはそのままです。</p><div id="cl52-retry" hidden><button type="button" onclick="location.reload()">再試行</button><a href="./launch-recovery.html">起動の復旧</a></div></div></div><div id="cl52-update" hidden role="status" aria-live="polite"><span id="cl52-update-text"></span><button id="cl52-update-action" hidden>閉じる</button></div><div id="app" class="app"><noscript>JavaScriptを有効にしてください。</noscript></div><script>
 window.cl52BootReady=false;
 window.cl52Stage=function(label,detail){document.getElementById('cl52-label').textContent=label;document.getElementById('cl52-detail').textContent=detail;};
 window.cl52BootError=function(detail){if(window.cl52BootReady)return;cl52Stage('起動に時間がかかっています',detail);document.getElementById('cl52-retry').hidden=false;document.getElementById('cl52-track').classList.add('error');};
@@ -1831,7 +1895,7 @@ Object.assign(CL_ASSET_INDEX,{"assets/art_v030_cl_061.webp":210,"assets/portrait
 /* v0.31 — 3 additional individually verified and optimized original university portraits; data is self-contained. */
 
 Object.assign(CL_ASSET_INDEX,{"assets/art_v031_cl_071.webp":240,"assets/portrait_v031_cl_071.webp":241,"assets/thumb_art_v031_cl_071.webp":242,"assets/art_v031_cl_072.webp":243,"assets/portrait_v031_cl_072.webp":244,"assets/thumb_art_v031_cl_072.webp":245,"assets/art_v031_cl_073.webp":246,"assets/portrait_v031_cl_073.webp":247,"assets/thumb_art_v031_cl_073.webp":248});
-const VERSION='0.89.0', KEY='campus_legends_v046_save', OLD_KEY='campus_legends_v045_save', LEGACY_KEY='campus_legends_v06_save', LEGACY1_KEY='campus_legends_v05_save';
+const VERSION='0.90.0', KEY='campus_legends_v046_save', OLD_KEY='campus_legends_v045_save', LEGACY_KEY='campus_legends_v06_save', LEGACY1_KEY='campus_legends_v05_save';
 const CARD_BY_ID=Object.fromEntries(UNIVERSITY_CARDS.map(c=>[c.id,c]));
 const RARITIES=['N','R','SR','SSR','UR','LEGEND'];
 const RARITY_NAME={N:'NORMAL',R:'RARE',SR:'SUPER RARE',SSR:'SPECIAL RARE',UR:'ULTRA RARE',LEGEND:'LEGEND'};
@@ -2531,19 +2595,19 @@ function collectionLiteCardHTML(id,opts={}){
  const c=CARD_BY_ID[id];if(!c)return '<div class="cardempty">—</div>';
  const f=FIELD[c.field],r=c.rarity.toLowerCase();
  const topRight=opts.locked?`${EXCHANGE[c.rarity]}pt`:`${cl64Power(c)}`;
- return `<div class="ucard collection-lite ${r} ${opts.locked?'ownedless':''}" data-card-id="${id}" style="--c1:${f[2]};--c2:${f[3]}" title="${escapeHTML(c.uni+' '+c.dept)}"><div class="lite-top"><span class="lite-rarity">${c.rarity}${v39Badge(c)}${cl64Badge(id,!opts.locked)}</span><b class="lite-power">${topRight}</b></div><div class="lite-art">${cl74GroupBadge(c)}${opts.locked?cardSilhouette(c):`<img src="${clAsset(collectionThumbFor(c))}" alt="" loading="lazy" decoding="async" draggable="false">`}${opts.locked?'<span class="lite-lock">未所持</span>':bondBadge(id)}</div><div class="lite-body"><div class="lite-uni ${c.uni.length>9?'long':''}">${escapeHTML(c.uni)}</div><div class="lite-dept ${c.dept.length>10?'long':''}">${escapeHTML(c.dept)}</div><div class="lite-tags"><span>${f[0]}</span><span>${escapeHTML(c.region)}</span></div></div></div>`;
+ return `<div class="ucard collection-lite ${r} ${opts.locked?'ownedless':''}" data-card-id="${id}" style="--c1:${f[2]};--c2:${f[3]}" title="${escapeHTML(c.uni+' '+c.dept)}"><div class="lite-top"><span class="lite-rarity">${c.rarity}${v39Badge(c)}${cl64Badge(id,!opts.locked)}</span><b class="lite-power">${topRight}</b></div><div class="lite-art">${cl74GroupBadge(c)}${opts.locked?cardSilhouette(c):`<img src="${clAsset(collectionThumbFor(c))}" alt="" loading="${opts.battleHand&&!opts.thumb?'eager':'lazy'}" decoding="async" draggable="false">`}${opts.locked?'<span class="lite-lock">未所持</span>':bondBadge(id)}</div><div class="lite-body"><div class="lite-uni ${c.uni.length>9?'long':''}">${escapeHTML(c.uni)}</div><div class="lite-dept ${c.dept.length>10?'long':''}">${escapeHTML(c.dept)}</div><div class="lite-tags"><span>${f[0]}</span><span>${escapeHTML(c.region)}</span></div></div></div>`;
 }
 
 function v42OldCard(id,opts={}){
  const c=CARD_BY_ID[id];if(!c)return '<div class="cardempty">—</div>';
  const f=FIELD[c.field],r=c.rarity.toLowerCase(),mini=!!opts.mini,compact=!!opts.compact,sk=getSkill(c);
- const head=`<div class="cl-head"><span class="cl-rarity">${c.rarity}${v39Badge(c)}${cl64Badge(id,!opts.locked&&!opts.enemy)}</span><span class="cl-stars" aria-label="${rarityIndex(c.rarity)+1}つ星">${rarityStars(c.rarity)}</span></div>`;
+ const head=`<div class="cl-head"><span class="cl-rarity">${c.rarity}</span><span class="cl-stars" aria-label="${rarityIndex(c.rarity)+1}つ星">${rarityStars(c.rarity)}</span></div>`;
  const frame='<div class="cl-frame"></div>';
  const extra=[mini?'mini':compact?'compact':'', opts.selected?'selected':'', opts.locked?'ownedless':'', opts.battleHand?'battle-hand':''].filter(Boolean).join(' ');
  const classes=`ucard cl-card ${r} ${extra}`;
  if(mini)return `<div class="${classes}" data-card-id="${id}" style="--c1:${f[2]};--c2:${f[3]}" title="${escapeHTML(c.uni+' '+c.dept)}">${frame}<div class="cl-miniart"><img src="${clAsset(cardPicFor(c))}" alt="" loading="lazy">${opts.enemy?'':bondBadge(id)}</div><div class="cl-minicap"><span class="cl-mininame">${escapeHTML(campusShortLabel(c.uni))}</span><b class="cl-minipower">${cl64Power(c,opts.enemy?'enemy':'player')}</b></div></div>`;
  if(opts.collectionLite)return collectionLiteCardHTML(id,opts);
- return `<div class="${classes}" data-card-id="${id}" style="--c1:${f[2]};--c2:${f[3]}" title="${escapeHTML(c.uni+' '+c.dept+(opts.locked?'':' / '+sk.name))}">${frame}${head}${opts.deckDetail?cl74GroupBadge(c):''}<div class="cl-art">${opts.locked?cardSilhouette(c):`<img src="${clAsset(opts.thumb?collectionThumbFor(c):cardPicFor(c))}" alt="" loading="lazy" decoding="async" draggable="false">`}${opts.locked?'<span class="cl-lock">未所持</span>':bondBadge(id)}</div><div class="cl-metadata">${cl86NameHTML(c,'uni')}${cl86NameHTML(c,'dept')}<div class="cl-fieldline"><span class="cl-fieldpill">${f[1]} ${escapeHTML(f[0])}</span><span class="cl-regionpill">${escapeHTML(c.region)}</span></div></div><div class="cl-foot ${opts.locked?'is-locked':''}">${opts.locked?`<span class="cl-skill cl-exchange-label">✧ 交換に必要</span><b class="cl-power cl-exchange-cost">${EXCHANGE[c.rarity]}<small>pt</small></b>`:`<span class="cl-skill" title="${escapeHTML(sk.name)}" aria-label="${escapeHTML(sk.name)}">✦ ${escapeHTML(sk.name)}</span><b class="cl-power">${cl64Power(c,opts.enemy?'enemy':'player')}</b>`}</div></div>`;
+ return `<div class="${classes}" data-card-id="${id}" style="--c1:${f[2]};--c2:${f[3]}" title="${escapeHTML(c.uni+' '+c.dept+(opts.locked?'':' / '+sk.name))}">${frame}${head}${opts.deckDetail?cl74GroupBadge(c):''}<div class="cl-art">${opts.locked?cardSilhouette(c):`<img src="${clAsset(opts.thumb?collectionThumbFor(c):cardPicFor(c))}" alt="" loading="lazy" decoding="async" draggable="false">`}${opts.locked?'<span class="cl-lock">未所持</span>':bondBadge(id)}<div class="cl90-artbadges">${v39Badge(c)}${cl64Badge(id,!opts.locked&&!opts.enemy)}</div>${opts.count&&(s.owned[id]||0)>1?`<span class="cl90-qty">×${s.owned[id]}</span>`:''}${opts.new?'<span class="cl90-new">NEW</span>':''}</div><div class="cl-metadata">${cl86NameHTML(c,'uni')}${cl86NameHTML(c,'dept')}<div class="cl-fieldline"><span class="cl-fieldpill">${f[1]} ${escapeHTML(f[0])}</span><span class="cl-regionpill">${escapeHTML(c.region)}</span></div></div><div class="cl-foot ${opts.locked?'is-locked':''}">${opts.locked?`<span class="cl-skill cl-exchange-label">✧ 交換に必要</span><b class="cl-power cl-exchange-cost">${EXCHANGE[c.rarity]}<small>pt</small></b>`:`<span class="cl-skill" title="${escapeHTML(sk.name)}" aria-label="${escapeHTML(sk.name)}">✦ ${escapeHTML(sk.name)}</span><b class="cl-power">${cl64Power(c,opts.enemy?'enemy':'player')}</b>`}</div></div>`;
 }
 function wrapper(id,action,opts={}){
  const qty=s.owned[id]||0;
@@ -2552,7 +2616,7 @@ function wrapper(id,action,opts={}){
  return `<div class="cardwrap ${opts.compact?'compact':''} ${opts.thumb?'collection-thumb':''} ${deckMore?'deck-card-actions':''}">
  <button type="button" data-act="${action}" data-id="${id}" aria-label="${escapeHTML(card.uni+' '+card.dept)}${action==='deck-toggle'?(s.deck.includes(id)?'をデッキから外す':'をデッキに追加'):''}">${cardHTML(id,opts)}</button>
  ${deckMore?`<button type="button" class="deck-info-btn" data-act="detail" data-id="${id}" aria-label="${escapeHTML(card.uni+' '+card.dept)}の能力とスキルの詳細を見る"><span aria-hidden="true">ⓘ</span> 詳細情報</button>`:''}
- ${opts.count&&qty>1?`<span class="qty">×${qty}</span>`:''}${opts.new?'<span class="newtag">NEW</span>':''}</div>`;
+ </div>`;
 } 
 
 function homeNavigatorMessage(){
@@ -2929,7 +2993,7 @@ function v38FinishBattleBase(b){if(b.over)return;const r=calculateWins(b);awardB
 function claim(id){refreshDaily();let m=MISSIONS.find(x=>x.id===id);if(!m||s.missions.claimed[id]||(s.missions.progress[id]||0)<m.target)return;s.missions.claimed[id]=true;addCoin(m.reward);save();render();sfx('rare');alertToast(`ミッション報酬 +${m.reward}G`)}
 function exchange(id){let c=CARD_BY_ID[id];if(!c)return;const cost=EXCHANGE[c.rarity];if(s.shards<cost||s.owned[id])return;s.shards-=cost;s.owned[id]=1;missionProgress('new');achievements();save();modal=null;render();sfx('rare');alertToast(`${c.uni}・${c.dept}を獲得！`)}
 function exportSave(){const a=document.createElement('a');const b=new Blob([JSON.stringify(s,null,2)],{type:'application/json'});a.href=URL.createObjectURL(b);a.download='campus_legends_save_'+tod()+'.json';a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);alertToast('セーブデータを書き出しました')}
-function importSave(file){if(!file)return;const reader=new FileReader;reader.onload=()=>{try{let x=JSON.parse(reader.result);if(!['0.1.0','0.2.0','0.3.0','0.4.0','0.5.0','0.6.0','0.7.0','0.8.0','0.9.0','0.10.0','0.11.0','0.12.0','0.13.0','0.14.0','0.15.0','0.16.0','0.17.0','0.18.0','0.19.0','0.20.0','0.21.0','0.22.0','0.23.0','0.24.0','0.25.0','0.26.0','0.27.0','0.28.0','0.29.0','0.30.0','0.31.0','0.32.0','0.33.0','0.34.0','0.35.0','0.36.0','0.37.0','0.38.0','0.39.0','0.40.0','0.41.0','0.42.0','0.43.0','0.44.0','0.45.0',...Array.from({length:43},(_,i)=>'0.'+(46+i)+'.0'),VERSION].includes(x.version)||!x.owned||!Array.isArray(x.deck))throw new Error('形式が違います');const clean=v43CleanSave(x);if(!clean)throw new Error('形式が違います');if(!confirm('現在のセーブを上書きして読み込みますか？'))return;s=clean;normalizeBond();s.deck=v38DeckValid(s.deck);v38Slots();v38Week();v38SyncTitles();sounds=s.soundEnabled!==false;packData=null;v41Recover();save();modal=null;screen='home';render(true);alertToast('セーブデータを読み込みました')}catch(e){alertToast('対応していないセーブファイルです')}};reader.readAsText(file)}
+function importSave(file){if(!file)return;const reader=new FileReader;reader.onload=()=>{try{let x=JSON.parse(reader.result);if(!['0.1.0','0.2.0','0.3.0','0.4.0','0.5.0','0.6.0','0.7.0','0.8.0','0.9.0','0.10.0','0.11.0','0.12.0','0.13.0','0.14.0','0.15.0','0.16.0','0.17.0','0.18.0','0.19.0','0.20.0','0.21.0','0.22.0','0.23.0','0.24.0','0.25.0','0.26.0','0.27.0','0.28.0','0.29.0','0.30.0','0.31.0','0.32.0','0.33.0','0.34.0','0.35.0','0.36.0','0.37.0','0.38.0','0.39.0','0.40.0','0.41.0','0.42.0','0.43.0','0.44.0','0.45.0',...Array.from({length:44},(_,i)=>'0.'+(46+i)+'.0'),VERSION].includes(x.version)||!x.owned||!Array.isArray(x.deck))throw new Error('形式が違います');const clean=v43CleanSave(x);if(!clean)throw new Error('形式が違います');if(!confirm('現在のセーブを上書きして読み込みますか？'))return;s=clean;normalizeBond();s.deck=v38DeckValid(s.deck);v38Slots();v38Week();v38SyncTitles();sounds=s.soundEnabled!==false;packData=null;v41Recover();save();modal=null;screen='home';render(true);alertToast('セーブデータを読み込みました')}catch(e){alertToast('対応していないセーブファイルです')}};reader.readAsText(file)}
 function reset(){if(!confirm('コレクション・戦績・コインをすべて初期化します。この操作は取り消せません。'))return;s=initial();sounds=true;try{localStorage.removeItem(KEY);localStorage.removeItem(KEY+'_backup')}catch(e){}v43LastSaved=null;save();modal=null;screen='home';render(true);alertToast('初期化しました')}
 function retire(){if(!confirm('対戦を中断すると敗北として記録されます。よろしいですか？'))return;let b=s.battle;if(!b||b.over)return;b.over=true;b.reward=0;b.result={win:false,w:0,l:3,t:0,rs:b.zones.map((z,i)=>({z:ZONES.find(x=>x.id===z).name,p:v33LaneBattleScore(b,'player',i).total,e:v33LaneBattleScore(b,'enemy',i).total}))};if(b.mode!=='gakuha'){s.losses++;if(b.mode!=='promotion'){s.rank=Math.max(0,s.rank-1);s.promotionTarget=0}}save();render(true)}
 document.addEventListener('click',e=>{const el=e.target.closest?.('[data-act]');if(!el)return;if(el.dataset.act==='close-back'&&e.target.closest?.('.modal')!==null)return;const act=el.dataset.act,id=el.dataset.id;switch(act){case'dismiss-rarity':dismissRevealFx();return;case'nav':changeTab(el.dataset.tab);return;case'gakuha-start':startGakuha(+el.dataset.stage);return;case'gakuha-resume':screen='battle';render(true);return;case'battle-start':if(s.battle&&!s.battle.over){screen='battle';modal=null;render(true)}else startBattle();return;case'select-card':if(s.battle&&!s.battle.over&&!s.battle.pendingFinish&&!v40Busy&&!s.battle.v41Pending){s.battle.selected=id===s.battle.selected?null:id;save();render();sfx('tap')}return;case'place':place(+el.dataset.lane);return;case'open-pack':openPack(el.dataset.kind);return;case'claim':claim(id);return;case'owned':filterOwned=el.dataset.value==='1';shown=18;render();return;case'filter':filterR=id;shown=18;render();return;case'portrait-filter':filterPortrait=!filterPortrait;filterOwned=false;shown=18;render();return;case'more':shown+=18;render();return;case'navigator':modal={type:'custom',html:navigatorModal()};render();return;case'detail':modal=s.owned[id]?{type:'detail',id}:{type:'custom',html:exchangePromptModal(id)};render();return;case'exchange-prompt':modal={type:'custom',html:exchangePromptModal(id)};render();return;case'battle-quick':if(CARD_BY_ID[id]){modal={type:'quick',id,side:el.dataset.side||'player'};render()}return;case'close':case'close-back':cl89CloseModal();return;case'settings':modal={type:'settings'};render();return;case'reveal-next':revealNext(false);return;case'reveal-all':revealNext(true);return;case'close-pack':cl84ClosePack();return;case'deck-toggle':toggleDeck(id);if(modal?.type==='detail'){modal=null;render()}return;case'auto-deck':v42Replace=null;autoDeck();return;case'exchange':exchange(id);return;case'sound':sounds=!sounds;s.soundEnabled=sounds;if(!sounds){stopBattleBGM();v46Silence();if(cl66Sound){try{cl66Sound.source.stop()}catch(_){}cl66Sound=null}}save();render();return;case'navigator-toggle':s.navVisible=s.navVisible===false;save();render();return;case'export':exportSave();return;case'reset':reset();return;case'retire':retire();return;default:return}});
