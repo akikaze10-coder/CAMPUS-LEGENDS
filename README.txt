@@ -1,5 +1,5 @@
-CAMPUS LEGENDS v0.255.0 emergency PWA recovery
-Base: v0.254.0 (or already applied v0.253 assets).
-Upload index.html, sw.js, recovery-v255.html to the same repository root. Do not remove existing media or save data.
-Open https://akikaze10-coder.github.io/CAMPUS-LEGENDS/recovery-v255.html in the affected browser/profile after deployment, click the repair button, then open the game. For an installed PWA with separate storage, open the recovery URL in the same app context if possible.
-The service worker installs the verified HTML and activates independently of the old UI. Media is filled asynchronously by the existing application.
+CAMPUS LEGENDS v0.261.0 / v0.255.0からの累積差分
+既存のルートへindex.html・sw.js・bgmを上書き。既存の素材やrecovery-v255.htmlは削除しない。
+v0.256〜260の変更を含む。v0.258の編成BGMを収録。
+v0.261: CGと効果音の同期・遅延した演出音の抑制・対戦会話と復帰表示の調整。
+セーブ形式は変更なし。
